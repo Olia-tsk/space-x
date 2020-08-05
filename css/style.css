@@ -10,7 +10,7 @@ h1 {
     font-size: 64px;
     font-weight: normal;
     margin: auto;
-    margin-top: 120px;
+    margin-bottom: 26px;
 }
 
 a {
@@ -19,9 +19,9 @@ a {
 
 .header {
     max-width: 1230px;
-    min-width: 645px;
     width: 90%;
     margin: auto;
+    margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
 }
@@ -45,15 +45,91 @@ a {
     color: #808080;
 }
 
-.head-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.secondary-nav .item:last-child .item-link {
+    margin-right: 0;
 }
 
-.head-description {
-    margin-top: 26px;
+.main {
+    text-align: center;
+}
+
+.main-description {
     font-size: 16px;
     font-weight: 300;
-    text-align: center;
+    max-width: 268px;
+    margin: auto;
+}
+
+.main-description:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.video {
+    height: 750px;
+    max-width: 1230px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.features {
+    position: relative;
+    max-width: 1230px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 218px;
+}
+
+h2 {
+    margin-bottom: 45px;
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 140%;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.features-title {
+    width: 177px;
+}
+
+.table {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 179.69%;
+}
+
+.first-column {
+    width: 288px;
+    padding-bottom: 11px;
+}
+
+.performance {
+    max-width: 1230px;
+    width: 90%;
+    margin: auto;
+}
+
+.performance-title {
+    width: 173px;
+}
+
+.performance-text {
+    margin-bottom: 0;
+    width: 490px;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.rocket {
+    position: absolute;
+    top: 800px;
+    right: 0;
+    z-index: 5;
 }
